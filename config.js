@@ -13,7 +13,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY DANGER*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS *",
 // set the auto reply massage on status reply
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
@@ -72,7 +72,7 @@ DEV: process.env.DEV || "917499190619",
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view
 ANTI_CALL: process.env.ANTI_CALL || "true",
-REJECT_MSG: process.env.REJECT_MSG || "*_SOORY AMAR BOSS BUSY PLEASE PORE CALL KORBEN_*",
+REJECT_MSG: process.env.REJECT_MSG || "*_SOORY MY BOSS IS BUSY_*",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 // set true false for anti delete
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
